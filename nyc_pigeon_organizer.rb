@@ -13,7 +13,6 @@ def nyc_pigeon_organizer(data)
         pigeons_by_name[n][attribute].push(key.to_s)
       end
     end
-    
   end
   #binding.pry
   pigeons_by_name
