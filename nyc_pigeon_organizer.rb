@@ -1,7 +1,7 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   pigeons_by_name = {}
-  pigeon_data.each do |attribute, groups| 
+  data.each do |attribute, groups| 
     groups.each do |key, value|
       value.each do |n|
         unless pigeons_by_name.include?(n)
