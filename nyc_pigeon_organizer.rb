@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         unless pigeons_by_name[n].include?(attribute)
           pigeons_by_name[n][attribute] = []
         end
-        pigeons_by_name[n][attribute].push(key)
+        pigeons_by_name[n][attribute].push(key.to_s)
       end
     end
     
